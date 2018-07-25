@@ -1,0 +1,176 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0; padding:0;}
+html{
+    font-family: Arial,Helvetica,Microsoft Yahei,sans-serif;
+}
+body{
+    background: url(../images/bj.jpg);
+}
+input{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+div{
+    box-sizing: border-box;
+}
+input::-webkit-input-placeholder{
+            color:#b2b2b2;
+}
+input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+            color:#b2b2b2;
+}
+input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+            color:#b2b2b2;
+}
+input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+            color:#b2b2b2;
+}
+a {
+    text-decoration: none;
+}
+.login{
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width:480px;
+    height:360px;
+    margin-left:-240px;
+    margin-top:-180px;
+    border-radius:8px;
+}
+.login_box{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.login_pic{
+    background: url(../images/pic1.png);
+    height: 80px;
+    background-size: 100% 100%;
+}
+.user{
+    background: #fff;
+    width: 300px;
+    height: 40px;
+    border-radius:3px;
+    border: 1px solid #dcdcdc;
+    margin-top: 25px;
+}
+.user input,.password input,.vcode input{
+    color: #000;
+    width: 80%;
+    height: 38px;
+    font-size: 14px;
+}
+.password{
+    background: #fff;
+    width: 300px;
+    height: 40px;
+    border-radius:3px;
+    border: 1px solid #dcdcdc;
+    margin-top: 15px
+}
+.getvcode{
+    width: 300px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.vcode{
+    background: #fff;
+    width: 190px;
+    height: 40px;
+    border-radius:3px;
+    border: 1px solid #dcdcdc;
+    float: left
+}
+.vcode input{
+    width:50%;
+}
+.vcode_pic{
+    width: 94px;
+    height: 40px;
+    background: url(../images/getvcode.png);
+    float: right;
+    background-size: 100% 100%;
+}
+.col-line{
+    height: 16px;
+    width: 1px;
+    background: #dcdcdc;
+    display: inline-block;
+    float: left;
+    margin: 11px 12px 0 0px;
+}
+.icon_password,.icon_user,.icon_vcode{
+    width: 38px;
+    height: 28px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+.icon_user i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/user.png) no-repeat;
+    background-size: 100% 100%; 
+}
+.icon_password i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/password.png) no-repeat;
+    background-size: 100% 100%; 
+}
+.icon_vcode i{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/vcode.png) no-repeat;
+    background-size: 100% 100%;
+}
+.forget{
+    font-size: 14px;
+    color: #19adff;
+    float: right;
+    margin-top: 6px;
+}
+.btn{
+    width: 302px;
+    float: left;
+    margin-top: 15px;
+}
+.btn-left,.btn-right{
+    font-size: 15px;
+    float: left;
+    width: 141px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #19adff;
+    color: #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn-right{
+    margin-left: 20px;
+    background-color: #8CD0FF;
+}
+.btn-left:hover{
+    background-color: #23C4FF
+}
+
+.btn-right:hover{
+    background-color: #23C4FF
+}
+.hint-save {
+    text-align: center;
+    width: 480px;
+    left: 50%;
+    margin-left: -240px;
+    color: #333;
+    font-size: 13px;
+    position: absolute;
+    bottom: 50px;
+}
